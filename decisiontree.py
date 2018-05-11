@@ -204,7 +204,7 @@ def TreeGenerate(dataset, attributeset):
 def ReadData(filename):
     """
     Read dataset from "filename".
-    :param filename: a string of a file,which contains dataset
+    :param filename: a string of a file that contains dataset
     :return: train dataset and test dataset
     """
     f = open(filename, 'r')
